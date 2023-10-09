@@ -1,2 +1,2 @@
 # CGPAcalci
-T calculate cgpa and sgpa
+To calculate cgpa and sgpa
