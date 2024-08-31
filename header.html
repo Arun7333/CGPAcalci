@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="header.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=REM:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        
+    </head>
+
+    <body>
+
+        <div class="head">
+            <button onclick="menubutton()" id="menubutton"><span id='menu' class="material-symbols-outlined">menu</span></button>
+            <div class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="home.php">Student</a></li>
+                    <li><a href="login.php">Admin</a></li>
+                    <li><a href="">Help</a></li>
+                </ul>
+            </div>
+            <img src="images/logo.jpg" id="logo">
+            <div class="heading"><h1>K.S.Rangasamy College of Technology</h1>
+            <p>(Autonomous) | Tiruchengode</p>
+            </div>
+            <img src="images/idea.png" id="idea">
+            <img src="images/nba.png" id="nba">
+            <img src="images/naac.png" id="naac">
+            <img src="images/iic.png" id="iic">
+        </div>
+
+    </body>
+    <script>
+        let display=0;
+        function menubutton(){
+            let menu=document.getElementById("nav-menu");
+            if(display==1){
+                menu.style.left="-200px";
+                display=0;
+            }
+            else{
+                menu.style.left="0px";
+                display=1;
+            }
+        }
+    </script>
+</html>

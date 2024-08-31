@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body{
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.input{
+    margin-left: 32.5%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 35%;
+    border-radius: 3px;
+    box-shadow: 0 0 8px rgba(0,0,0,15);
+
+}
+.input h2{
+    padding: 10px;
+    padding-right: 5px;
+    margin-left:22%;
+    display: inline;
+    color: rgb(55, 46, 102);
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.input h3{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(55, 46, 102);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#reg{
+    margin-top: 5%;
+}
+#dep ,#semester,#reg{
+    margin-left: 15%;
+    margin-bottom: 5%;
+    padding: 15px;
+    width: 70%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: white;
+    background: transparent;
+    box-shadow: 0 0 5px rgb(55, 46, 102);
+}
+#submit,#Add_Sub{
+    margin-left: 15%;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(55, 46, 102) ;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+#submit:hover,#Add_Sub:hover{
+    background-color: rgb(253, 253, 255);
+    color: rgb(55, 46, 102);
+    border-color: white;
+    box-shadow: 0 0 3px rgba(0,0,0,15);
+}
+#Add_Sub{
+    margin-left: 34%;
+}
+#form option{
+    max-width: 50px;
+}
+.admin{
+    margin: 2%;
+}
+.admin h1{
+    width: 100%;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+.admin-main_body{
+    margin-top: 20px;
+    display:flex;
+}
+.batch-header{
+    background-color:white;
+    width: 10%;
+}
+.batch-header h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    color: white;
+    background-color:rgb(55, 46, 102) ;
+}
+.batch-header a{
+    display: block;
+    font-weight: 500;
+    font-size: 17px;
+    color: black;
+    background-color:#b9b1b1cf ;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: solid 2px white;
+    text-align: center; 
+}
+.container{
+    display: block;
+    margin-left: 4%;
+}
+.container a{
+    text-decoration: none;
+}
+.container button{
+    background-color: rgb(55, 46, 102) ;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 7%;
+    cursor: pointer;
+}
+.container button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 4px rgba(0,0,0,15);
+    border: none;
+}
+.table{
+    display: flex;
+    width: max-content;
+    margin-left: 7%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0 0 3px rgba(0,0,0,15);
+}
+#table{
+    display:block;
+    border-collapse: collapse;
+}
+#table th{
+    margin: 0;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #CBCBD4;
+}
+#table td{
+    text-align: center;
+    padding: 7px;
+    border-bottom: solid 1px #c3c3c9;
+}
+.table input{
+    padding: 2px;
+    text-align: center;
+    width: 80px;
+    border: none;
+}
+@media(width<=800px){
+    .head h1{
+        font-size: 25px;
+    }
+    .input{
+        width: 400px;
+        margin: auto;
+        margin-top: 20%;
+    }
+    .body{
+        align-items: center;
+    }
+    #semester,#dep,#reg{
+        font-size: 17px;
+        padding: 18px;
+    }
+    form button{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .input h2{
+        font-size: 30px;
+    }
+    .input h3{
+        font-size: 20px;
+    }
+} 
